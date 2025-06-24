@@ -1,4 +1,4 @@
-FROM rust:1.85-alpine3.21
+FROM rust:1.87.0-alpine3.22
 
 LABEL "name"="Automate publishing Rust build artifacts for GitHub releases through GitHub Actions"
 LABEL "version"="1.4.5"
